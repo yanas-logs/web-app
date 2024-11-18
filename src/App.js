@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
 
-function App(){
+function App() {
     return (
-    <div className="flex-text">
-    <h1>Hello, world</h1>;
-    </div>
+        <div className="flex-text">
+            <h1>Hello, world</h1>;
+        </div>
     )
 }
 
