@@ -1,11 +1,11 @@
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #17a9fd;
     padding: 1rem;
     color: white;
 }
-
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -20,4 +20,28 @@
 .navbar-title {
     font-size: 1.2rem;
     font-weight: bold;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2.5rem;
+    
+    list-style-type: none;
+}
+.menu ul li {
+    margin-right: 5rem;
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.menu ul li a:hover {
+    text-decoration:underline;
 }
