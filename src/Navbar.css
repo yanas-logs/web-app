@@ -1,8 +1,23 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #17a9fd;
-    color: rgb(255, 255, 255);
     padding: 1rem;
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand svg {
+    margin-right: 0.5rem;
+}
+
+.navbar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
